@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace Crud_1._0
 {
-    public partial class frmCasdastrar : Form
+    public partial class Form3 : Form
     {
-        public frmCasdastrar()
+        public Form3()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void btnVoltar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
