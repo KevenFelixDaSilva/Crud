@@ -33,13 +33,13 @@ namespace Crud_1._0
             this.btnCadastrarTela = new System.Windows.Forms.Button();
             this.btnExibir = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btnPerfil = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCadastrarTela
             // 
-            this.btnCadastrarTela.Location = new System.Drawing.Point(76, 306);
+            this.btnCadastrarTela.Location = new System.Drawing.Point(321, 117);
             this.btnCadastrarTela.Name = "btnCadastrarTela";
             this.btnCadastrarTela.Size = new System.Drawing.Size(179, 58);
             this.btnCadastrarTela.TabIndex = 10;
@@ -49,7 +49,7 @@ namespace Crud_1._0
             // 
             // btnExibir
             // 
-            this.btnExibir.Location = new System.Drawing.Point(554, 306);
+            this.btnExibir.Location = new System.Drawing.Point(321, 204);
             this.btnExibir.Name = "btnExibir";
             this.btnExibir.Size = new System.Drawing.Size(180, 58);
             this.btnExibir.TabIndex = 9;
@@ -67,21 +67,21 @@ namespace Crud_1._0
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
-            // label1
+            // btnPerfil
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "label1";
+            this.btnPerfil.Location = new System.Drawing.Point(322, 292);
+            this.btnPerfil.Name = "btnPerfil";
+            this.btnPerfil.Size = new System.Drawing.Size(179, 58);
+            this.btnPerfil.TabIndex = 11;
+            this.btnPerfil.Text = "Perfil";
+            this.btnPerfil.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnPerfil);
             this.Controls.Add(this.btnCadastrarTela);
             this.Controls.Add(this.btnExibir);
             this.Controls.Add(this.pictureBox1);
@@ -89,7 +89,6 @@ namespace Crud_1._0
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -97,7 +96,7 @@ namespace Crud_1._0
         private System.Windows.Forms.Button btnCadastrarTela;
         private System.Windows.Forms.Button btnExibir;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnPerfil;
     }
 }
 
