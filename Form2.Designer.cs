@@ -42,6 +42,7 @@ namespace Crud_1._0
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnInserir = new System.Windows.Forms.Button();
+            this.btnHome = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -148,11 +149,22 @@ namespace Crud_1._0
             this.btnInserir.UseVisualStyleBackColor = true;
             this.btnInserir.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
+            // btnHome
+            // 
+            this.btnHome.Location = new System.Drawing.Point(493, 314);
+            this.btnHome.Margin = new System.Windows.Forms.Padding(4);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Size = new System.Drawing.Size(139, 43);
+            this.btnHome.TabIndex = 36;
+            this.btnHome.Text = "Home";
+            this.btnHome.UseVisualStyleBackColor = true;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.btnHome);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtPlaca);
@@ -186,6 +198,7 @@ namespace Crud_1._0
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnInserir;
+        private System.Windows.Forms.Button btnHome;
 
         public EventHandler Form2_Load { get; private set; }
     }
